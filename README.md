@@ -18,8 +18,8 @@
 ### 🧪 Lab Assignments
 | Lab | Status |
 |-----|--------|
-| 1L | 🟡 In Progress |
-| 2L | ⬜ Not Started |
+| 1L | ✅ Completed |
+| 2L | ✅ Completed |
 | 3L | ⬜ Not Started |
 | 4L | ⬜ Not Started |
 | 5L | ⬜ Not Started |
@@ -35,7 +35,7 @@
 ### 💻 Programming Assignments
 | Program | Description | Due Date | Status |
 |---------|-------------|----------|--------|
-| 1P | | | ⬜ Not Started |
+| 1P | Functional List Implementation | | ✅ Completed |
 | 2P | | | ⬜ Not Started |
 | 3P | | | ⬜ Not Started |
 | 4P | | | ⬜ Not Started |
@@ -47,8 +47,8 @@
 
 ## 📊 Progress Summary
 - 0/10 weeks completed
-- 0/13 labs completed (1 in progress)
-- 0/9 programming assignments completed
+- 2/13 labs completed (0 in progress)
+- 1/9 programming assignments completed (0 in progress)
 
 ---
 > 💡 **Tip:** Mark tasks as completed by changing `- [ ]` to `- [x]` or changing ⬜ to ✅

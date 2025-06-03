@@ -4,8 +4,8 @@
 ## 🎯 Course Progress Tracker
 
 ### 📅 Weekly Schedule
-- [ ] **Week 1:** Abstract data types (ADTs): immutable lists, stacks, queues; Algorithms & Big-O notation, Unit-testing concepts & JUnit
-- [ ] **Week 2:** Stack, set, & map ADTs, unit-testing methodologies, set notation
+- [x] **Week 1:** Abstract data types (ADTs): immutable lists, stacks, queues; Algorithms & Big-O notation, Unit-testing concepts & JUnit
+- [x] **Week 2:** Stack, set, & map ADTs, unit-testing methodologies, set notation
 - [ ] **Week 3:** Recursion & recursive data structures; more testing methodologies; binary search trees (BST), including threaded BSTs; lambda expressions
 - [ ] **Week 4:** Algorithm design techniques; heaps; priority queue ADT; tries; Huffman coding
 - [ ] **Week 5:** Applying data structures to problems; writing methods that accept lambdas; Graph ADT
@@ -33,25 +33,25 @@
 | 13L | ⬜ Not Started |
 
 ### 💻 Programming Assignments
-| Program | Description | Due Date | Status |
-|---------|-------------|----------|--------|
-| 1P | Functional List Implementation | | ✅ Completed |
-| 2P | | | ⬜ Not Started |
-| 3P | | | ⬜ Not Started |
-| 4P | | | ⬜ Not Started |
-| 5P | | | ⬜ Not Started |
-| 6P | | | ⬜ Not Started |
-| 7P | | | ⬜ Not Started |
-| 8P | | | ⬜ Not Started |
-| 9P | | | ⬜ Not Started |
+| Program | Due Date | Status |
+|---------|----------|--------|
+| 1P | | ✅ Completed |
+| 2P | | ✅ Completed |
+| 3P | | ⬜ Not Started |
+| 4P | | ⬜ Not Started |
+| 5P | | ⬜ Not Started |
+| 6P | | ⬜ Not Started |
+| 7P | | ⬜ Not Started |
+| 8P | | ⬜ Not Started |
+| 9P | | ⬜ Not Started |
 
 ## 📊 Progress Summary
-- 0/10 weeks completed
+- 2/10 weeks completed
 - 2/13 labs completed (0 in progress)
-- 1/9 programming assignments completed (0 in progress)
+- 2/9 programming assignments completed (0 in progress)
 
 ---
-> 💡 **Tip:** Mark tasks as completed by changing `- [ ]` to `- [x]` or changing ⬜ to ✅
+
 
 
 

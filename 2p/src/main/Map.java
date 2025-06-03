@@ -12,67 +12,41 @@ Collaboration Declaration:
 Collaboration: None
 */
 
-import java.util.ArrayList;
+import java.util.TreeMap;
 
 public class Map<K extends Comparable<K>, V> implements Cloneable {
 
-    private ArrayList<Entry<K, V>> map;
+    private TreeMap<K, V> map;
     private int size;
 
-    private static class Entry<K, V> {
-        private K key;
-        private V value;
-        
-        public Entry(K key, V value) {
-            this.key = key;
-            this.value = value;
-        }
-        
-        public K getKey() {
-            return key;
-        }
-        
-        public V getValue() {
-            return value;
-        }
-        
-        public void setValue(V value) {
-            this.value = value;
-        }
-    }
-
     public Map() {
-        this.map = new ArrayList<>();
+        this.map = new TreeMap<>();
         this.size = 0;
     }
     
     public Map(Map<K, V> v) {
-        this.map = new ArrayList<>();
+        this.map = new TreeMap<>();
         this.size = 0;
-        for (Entry<K, V> entry : v.map) {
-            this.map.add(new Entry<>(entry.getKey(), entry.getValue()));
+        for (K key : v.map.keySet()) {
+            this.map.put(key, v.map.get(key));
             this.size++;
         }
     }
 
     public boolean insert(K k, V v) {
-        for (Entry<K, V> entry : map) {
-            if (entry.getKey().equals(k)) {
-                return false;
-            }
+        if (map.containsKey(k)) {
+            return false;
         }
-        map.add(new Entry<>(k, v));
+        map.put(k, v);
         size++;
         return true;
     }
 
     public boolean erase(K k) {
-        for (int i = 0; i < map.size(); i++) {
-            if (map.get(i).getKey().equals(k)) {
-                map.remove(i);
-                size--;
-                return true;
-            }
+        if (map.containsKey(k)) {
+            map.remove(k);
+            size--;
+            return true;
         }
         return false;
     }
@@ -82,35 +56,22 @@ public class Map<K extends Comparable<K>, V> implements Cloneable {
     }
 
     public V get(Object k) {
-        for (Entry<K, V> entry : map) {
-            if (entry.getKey().equals(k)) {
-                return entry.getValue();
-            }
-        }
-        return null;
+        return map.get(k);
     }
 
     @Override
     public Object clone() {
-
         Map<K, V> clone = new Map<>();
-        clone.map = new ArrayList<>();
-        clone.size = 0;
-        for (Entry<K, V> entry : this.map) {
-            clone.map.add(new Entry<>(entry.getKey(), entry.getValue()));
-            clone.size++;
-        }
+        clone.map = new TreeMap<>(this.map);
+        clone.size = this.size;
         return clone;
     }
 
     public V replace(K k, V v) {
-        for (Entry<K, V> entry : map) {
-            if (entry.getKey().equals(k)) {
-                entry.setValue(v);
-                return v;
-            }
+        if (map.containsKey(k)) {
+            map.put(k, v);
+            return v;
         }
         return null;
     }
-
 }

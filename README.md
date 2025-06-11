@@ -21,7 +21,7 @@
 | 1L | ✅ Completed |
 | 2L | ✅ Completed |
 | 3L | ✅ Completed |
-| 4L | ⬜ Not Started |
+| 4L | ✅ Completed |
 | 5L | ✅ Completed |
 | 6L | ⬜ Not Started |
 | 7L | ⬜ Not Started |
@@ -47,7 +47,7 @@
 
 ## 📊 Progress Summary
 - 2/10 weeks completed
-- 4/13 labs completed (0 in progress)
+- 5/13 labs completed (0 in progress)
 - 3/9 programming assignments completed (0 in progress)
 
 ---

@@ -23,8 +23,8 @@
 | 3L | ✅ Completed |
 | 4L | ✅ Completed |
 | 5L | ✅ Completed |
-| 6L | ⬜ Not Started |
-| 7L | ⬜ Not Started |
+| 6L | ✅ Completed |
+| 7L | ✅ Completed |
 | 8L | ⬜ Not Started |
 | 9L | ⬜ Not Started |
 | 10L | ⬜ Not Started |
@@ -39,7 +39,7 @@
 | 2P | | ✅ Completed |
 | 3P | | ✅ Completed |
 | 4P | | ⬜ Not Started |
-| 5P | | ⬜ Not Started |
+| 5P | | ✅ Completed |
 | 6P | | ⬜ Not Started |
 | 7P | | ⬜ Not Started |
 | 8P | | ⬜ Not Started |
@@ -47,8 +47,8 @@
 
 ## 📊 Progress Summary
 - 2/10 weeks completed
-- 5/13 labs completed (0 in progress)
-- 3/9 programming assignments completed (0 in progress)
+- 7/13 labs completed (0 in progress)
+- 5/9 programming assignments completed (0 in progress)
 
 ---
 

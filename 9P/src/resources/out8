@@ -1,0 +1,20 @@
+	z zoo(1)
+		r fire(0)
+k kite(3)
+		d rose(1)
+			c ice(0)
+	b breeze(2)
+		a boy(0)
+
+++++++++m2++++++++++++
+
+++++++++m2 after assignment++++++++++++
+a b c d k r z 
+++++++++m2 after modificiation++++++++++++
+a b c d k r z 
+++++++++m2 after modificiation++++++++++++
+a b c d haha k r z 
+++++++++m2 after modificiation again++++++++++++
+a b c d k r z 
+++++++++m1 after modificiation again++++++++++++
+a b c d k r z 
